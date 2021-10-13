@@ -1,0 +1,41 @@
+#carousel .gallery .control-button {
+  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#carousel .gallery .control-button:hover {
+  color: black;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+#carousel .carousel{
+  background-color: tomato;
+  min-height: 80vh;
+}
+
+#carousel .gallery {
+  position: relative;
+}
+#carousel .gallery .item {
+  height: 500px;
+  overflow: hidden;
+  text-align: center;
+ 
+}
+#carousel .gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#carousel .gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
